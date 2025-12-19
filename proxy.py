@@ -13,4 +13,5 @@ def get_aurora():
         return jsonify({'error': str(e)}), 500  # Error handling
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)  # Run on port 5000
+
+    app.run(host='0.0.0.0', port=10000)  # Run on port 10000
